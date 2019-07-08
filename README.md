@@ -50,7 +50,7 @@ to a working `docker` runtime.
 
 Firstly, launch the container service locally by executing the following command:
 
-    docker run --rm -it -p 1395:1395 goodtune/rtmp
+    docker run --rm -it -p 1935:1935 goodtune/rtmp
 
 Next, configure OBS stream to [rtmp://localhost/live/](rtmp://localhost/live/).
 Start streaming (beyond the scope of this guide) and make sure it connects (you
